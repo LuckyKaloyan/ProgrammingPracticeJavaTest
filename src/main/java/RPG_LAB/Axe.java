@@ -20,7 +20,7 @@ public class Axe {
 
     public void attack(Dummy target) {
         if (this.durabilityPoints <= 0) {
-            throw new IllegalStateException("RPG_LAB.Axe is broken.");
+            throw new IllegalStateException("Axe is broken.");
         }
 
         target.takeAttack(this.attackPoints);
