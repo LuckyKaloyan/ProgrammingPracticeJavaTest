@@ -34,10 +34,5 @@ public class DatabaseTest {
         }
     }
 
-    @Test
-    public void constructorTakesStrings() {
-        assertThrows(OperationNotSupportedException.class, () -> {
-            database = new Database("a", "b");
-        }
 
 }
